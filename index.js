@@ -5,7 +5,7 @@ for (let i = 0; i < numberOfBottons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         let drumValue = this.innerHTML;
         makeSound(drumValue);
-        buttonAnimation(buttonInnerHTML);
+        buttonAnimation(drumValue);
     });
 }
 // for keyboard keys
